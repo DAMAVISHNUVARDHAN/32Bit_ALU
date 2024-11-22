@@ -10,46 +10,6 @@ To Verify the Functionality using Test Bench.
 
 Functional Simulation: Incisive Simulator (ncvlog, ncelab, ncsim)
 
-## alu_32bit
-
-module alu_32bit_case(y,a,b,f);
-
-input [31:0]a;
-
-input [31:0]b;
-
-input [2:0]f;
-
-output reg [31:0]y;
-
-always@(*)
-
-begin
-
-case(f)
-
-3'b000:y=a&b; //AND Operation
-
-3'b001:y=a|b; //OR Operation
-
-3'b010:y=~(a&b); //NAND Operation
-
-3'b011:y=~(a|b); //NOR Operation
-
-3'b100:y=a^b; //XOR Operation
-
-3'b101:y=~(a^b); //XNOR Operation
-
-3'b110:y=~a; //NOT of a
-
-3'b111:y=~b; //NOT of b
-
-endcase
-
-end
-
-endmodule
-
 ## Design Information and Bock Diagram:
 
 The ALU will take in two 32-bit values, and control line. An Arithmetic unit does the following task like addition subtraction, multiplication and logical operations. As the input is given in 32 bit we get 32 bit output. The arithmetic will show only one output at a time so a selector is necessary to select one of the operator.

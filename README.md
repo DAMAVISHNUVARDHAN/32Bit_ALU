@@ -96,7 +96,7 @@ source /cadence/install/cshrc (mention the path of the tools)
 (The path of cshrc could vary depending on the installation destination)
       
 After this you can see the window like below 
-![Screenshot 2024-10-21 113655](https://github.com/user-attachments/assets/5fdc1535-4d84-4c85-be3f-77863106b190)
+![Screenshot 2024-11-25 101703](https://github.com/user-attachments/assets/f7b19588-6bc6-4b5d-a3e4-d2a3b184cd05)
 
 
 ### Fig 2: Invoke the Cadence Environment
@@ -112,7 +112,7 @@ or
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
-![Screenshot 2024-10-21 113721](https://github.com/user-attachments/assets/5732f66f-63a3-433d-9cf8-87c016342171)
+![Screenshot 2024-11-25 100817](https://github.com/user-attachments/assets/77fcae59-ba48-4070-8778-4fe362d84ea5)
 
 
 ### Fig 3: Setting Multi-step simulation
@@ -143,7 +143,7 @@ Worklib is the directory where all the compiled codes are stored while Snapshot 
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
-![Screenshot (26)](https://github.com/user-attachments/assets/ba8d6c1c-ce87-4e5e-aa27-eae74ea9d39b)
+![Screenshot 2024-11-25 101002](https://github.com/user-attachments/assets/192c1d70-19d7-4d6f-a256-bbc91b46d7a7)
 
 
 ### Fig 6: Nclaunch Window
